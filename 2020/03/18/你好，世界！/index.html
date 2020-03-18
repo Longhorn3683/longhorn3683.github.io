@@ -213,30 +213,15 @@
                 <div class="comments" id="comments">
                   
                   
-  <div id="gitalk-container"></div>
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script defer src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.11.1/js/md5.min.js"></script>
-  <script type="text/javascript">
-    var oldLoad = window.onload;
-    window.onload = function () {
-      var gitalk = new Gitalk({
-        clientID: '2737b3b33e6f1b293dc7',
-        clientSecret: 'f126c22a8a8b1879bcf4dcc916ab6af1c246abcc',
-        repo: 'https://github.com/Longhorn3683/longhorn3683.github.io.git',
-        owner: 'Longhorn3683',
-        admin: 'Longhorn3683',
-        id: md5(location.pathname),
-        language: 'zh-CN',
-        perPage: 15,
-        pagerDirection: 'last',
-        createIssueManually: 'true',
-        distractionFreeMode: 'false'
-      });
-
-      gitalk.render('gitalk-container')
-      oldLoad && oldLoad();
-    }
+  <script defer src="https://utteranc.es/client.js"
+          repo="Longhorn3683/longhorn3683.github.io.git"
+          issue-term="pathname"
+  
+          label="utterances"
+    
+          theme="github-light"
+          crossorigin="anonymous"
+  >
   </script>
 
 
