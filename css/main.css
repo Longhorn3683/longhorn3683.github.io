@@ -13,7 +13,7 @@ body a {
   color: #3c4858;
 }
 body a:hover {
-  color: #1abc9c;
+  color: #c7c8c9;
 }
 img[srcset] {
   object-fit: cover;
@@ -604,7 +604,7 @@ h6::before {
 }
 .tocbot-active-link {
   font-weight: 600;
-  color: #1abc9c;
+  color: #c7c8c9;
 }
 .tocbot-is-collapsible {
   max-height: 1000px;
@@ -785,7 +785,7 @@ h6::before {
   font-weight: 400;
 }
 .tagcloud a:hover {
-  color: #1abc9c !important;
+  color: #c7c8c9 !important;
 }
 .links .card {
   box-shadow: none;
