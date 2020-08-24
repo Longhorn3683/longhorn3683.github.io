@@ -1,7 +1,7 @@
+
+
 <!DOCTYPE html>
-<html lang="zh-CN">
-
-
+<html lang="zh-CN" data-default-color-scheme=&#34;dark&#34;>
 
 
 
@@ -15,28 +15,33 @@
   
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   
-  <meta name="theme-color" content="#24292e">
+  <meta name="theme-color" content="#2f4154">
   <meta name="description" content="">
   <meta name="author" content="Longhorn3683">
   <meta name="keywords" content="">
-  <title>戴尔恢复盘白嫖教程 - Longhorn3683的小屋</title>
+  <title>2020年，我过了一个阉割版的暑假 - Longhorn3683的小屋</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
-<link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
 
 
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_fmb4a04yx8h.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_6peoq002giu.css">
 
 
 
 <link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
-
-
 
 
 <link  rel="stylesheet" href="/css/main.css" />
@@ -44,6 +49,8 @@
 <!-- 自定义样式保持在最底部 -->
 
 
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
 <meta name="generator" content="Hexo 4.2.0"></head>
 
 
@@ -67,52 +74,73 @@
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/">
-              <i class="iconfont icon-home-fill"></i>
-              首页</a>
-          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
         
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/archives/">
-              <i class="iconfont icon-archive-fill"></i>
-              归档</a>
-          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
         
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/tags/">
-              <i class="iconfont icon-tags-fill"></i>
-              标签</a>
-          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
         
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/about/">
-              <i class="iconfont icon-user-fill"></i>
-              关于</a>
-          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
         
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/links/">
-              <i class="iconfont icon-link-fill"></i>
-              友链</a>
-          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
         
         
           <li class="nav-item" id="search-btn">
-            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
-                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
           </li>
         
       </ul>
@@ -120,48 +148,50 @@
   </div>
 </nav>
 
-    <div class="view intro-2" id="background" parallax=true
+    <div class="banner intro-2" id="background" parallax=true
          style="background: url('/img/banner.png') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0)">
-          <div class="container text-center white-text fadeInUp">
+          <div class="container page-header text-center fade-in-up">
             <span class="h2" id="subtitle">
               
             </span>
 
             
               
-                <div class="mt-3 post-meta">
-                  <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-                  <time datetime="2020-03-20 08:58">
-                    2020年3月20日 早上
-                  </time>
-                </div>
-              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2020-08-24 20:28" pubdate>
+      2020年8月24日 晚上
+    </time>
+  </div>
 
-              <div class="mt-1">
-                
-                  
-                  <span class="post-meta mr-2">
-                    <i class="iconfont icon-chart"></i>
-                    322 字
-                  </span>
-                
 
-                
-                  
-                  <span class="post-meta mr-2">
-                      <i class="iconfont icon-clock-fill"></i>
-                    
-                    
-                    3
-                     分钟
-                  </span>
-                
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      173 字
+    </span>
+  
 
-                
-              </div>
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      1
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
             
           </div>
 
@@ -181,43 +211,34 @@
     <div class="col-lg-8 nopadding-md">
       <div class="container nopadding-md" id="board-ctn">
         <div class="py-5" id="board">
-          <div class="post-content mx-auto" id="post">
+          <article class="post-content mx-auto" id="post">
+            <!-- SEO header -->
+            <h1 style="display: none">2020年，我过了一个阉割版的暑假</h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：2020年8月6日 凌晨
+                  本文最后更新于：2020年8月24日 晚上
                 
               </p>
             
-            <article class="markdown-body">
-              <h2 id="免责声明"><a href="#免责声明" class="headerlink" title="免责声明"></a>免责声明</h2><p><u><strong><em>本人不为因白嫖恢复盘而产生的一切后果负责！</em></strong></u></p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>现在（2020年3月20日）很多品牌机不再附带操作系统恢复盘，不过仍然有一些品牌可以申请恢复盘，如戴尔、联想。戴尔的恢复盘是USB 2.0的，8GB，有写保护。实测在戴尔技术支持微信无法白嫖。</p>
-<p><img src="/img/posts/%E6%88%B4%E5%B0%94%E6%81%A2%E5%A4%8D%E7%9B%98%E7%99%BD%E5%AB%96%E6%95%99%E7%A8%8B/1-1.png" srcset="/img/loading.gif" alt="1-1"></p>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><ol>
-<li>在<a href="https://www.dell.com/support/contents/cn/zh/cndhs1/category/contact-information/technical-support" target="_blank" rel="noopener">戴尔技术支持</a>输入服务编号，进入联系页面。</li>
-</ol>
-<p><img src="/img/posts/%E6%88%B4%E5%B0%94%E6%81%A2%E5%A4%8D%E7%9B%98%E7%99%BD%E5%AB%96%E6%95%99%E7%A8%8B/2-1.png" srcset="/img/loading.gif" alt="2-1"></p>
-<ol start="2">
-<li>选择“操作系统错误或蓝屏”，开始对话（需要在常规对话时间）。</li>
-</ol>
-<p><img src="/img/posts/%E6%88%B4%E5%B0%94%E6%81%A2%E5%A4%8D%E7%9B%98%E7%99%BD%E5%AB%96%E6%95%99%E7%A8%8B/2-2.png" srcset="/img/loading.gif" alt="2-2"></p>
-<blockquote>
-<p>网上的教程都比较老，几乎是使用电子邮件。现在选“操作系统错误或蓝屏”没有电子邮件了。不过如果对话一直对不上也只能在“告诉我们请求的性质”选择有电子邮件的选项。</p>
-<p><img src="/img/posts/%E6%88%B4%E5%B0%94%E6%81%A2%E5%A4%8D%E7%9B%98%E7%99%BD%E5%AB%96%E6%95%99%E7%A8%8B/2-3.png" srcset="/img/loading.gif" alt="2-3"></p>
-</blockquote>
-<ol start="3">
-<li>刚几下客服后应该可以搞到恢复盘（我用的是电子邮件）。</li>
-</ol>
-<blockquote>
-<p>麻烦您提供一下详细地址（包括省市区），这边尝试帮您申请一下</p>
-</blockquote>
-<h2 id="关于恢复盘"><a href="#关于恢复盘" class="headerlink" title="关于恢复盘"></a>关于恢复盘</h2><p>恢复盘是长这样的（没钱换手机，所以画质很渣）。</p>
-<p><img src="/img/posts/%E6%88%B4%E5%B0%94%E6%81%A2%E5%A4%8D%E7%9B%98%E7%99%BD%E5%AB%96%E6%95%99%E7%A8%8B/3-1.jpg" srcset="/img/loading.gif" alt="3-1"></p>
-<p>setup.exe是1809的，应该和电脑预装的版本有关。</p>
-<p><img src="/img/posts/%E6%88%B4%E5%B0%94%E6%81%A2%E5%A4%8D%E7%9B%98%E7%99%BD%E5%AB%96%E6%95%99%E7%A8%8B/3-2.png" srcset="/img/loading.gif" alt="3-2"></p>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>这篇教程我能说的就只有这么多了。</p>
+            <div class="markdown-body" id="post-body">
+              <p>2020年8月26日回学校报名，我的作业还没写完呢😭</p>
+<p>上个学期，我的语文有了进步，但是物理和数学退步了。尽管我的学习成绩还能在年级前500名。</p>
+<p>这个暑假本来打算写一些文章，但最近太忙就没有写。我可能要到明年寒假才有空写。</p>
+<p>我朋友回校比我早几天。他说，在回校前，他们班群都在发“网抑云”表情包😂</p>
+<p>这可能是我2020年最后一次更新博客。</p>
+<p>下面几张图看看就好</p>
+<p><img src="/img/posts/2020%E5%B9%B4%EF%BC%8C%E6%88%91%E8%BF%87%E4%BA%86%E4%B8%80%E4%B8%AA%E9%98%89%E5%89%B2%E7%89%88%E7%9A%84%E6%9A%91%E5%81%87/1-1.jpg" srcset="/img/loading.gif" alt="1-1"></p>
+<p><img src="/img/posts/2020%E5%B9%B4%EF%BC%8C%E6%88%91%E8%BF%87%E4%BA%86%E4%B8%80%E4%B8%AA%E9%98%89%E5%89%B2%E7%89%88%E7%9A%84%E6%9A%91%E5%81%87/1-2.png" srcset="/img/loading.gif" alt="1-2"></p>
+<p><img src="/img/posts/2020%E5%B9%B4%EF%BC%8C%E6%88%91%E8%BF%87%E4%BA%86%E4%B8%80%E4%B8%AA%E9%98%89%E5%89%B2%E7%89%88%E7%9A%84%E6%9A%91%E5%81%87/1-3.jpg" srcset="/img/loading.gif" alt="1-3"></p>
+<p><img src="/img/posts/2020%E5%B9%B4%EF%BC%8C%E6%88%91%E8%BF%87%E4%BA%86%E4%B8%80%E4%B8%AA%E9%98%89%E5%89%B2%E7%89%88%E7%9A%84%E6%9A%91%E5%81%87/1-4.jpg" srcset="/img/loading.gif" alt="1-4"></p>
+<p><img src="/img/posts/2020%E5%B9%B4%EF%BC%8C%E6%88%91%E8%BF%87%E4%BA%86%E4%B8%80%E4%B8%AA%E9%98%89%E5%89%B2%E7%89%88%E7%9A%84%E6%9A%91%E5%81%87/1-5.jpg" srcset="/img/loading.gif" alt="1-5"></p>
+<p><img src="/img/posts/2020%E5%B9%B4%EF%BC%8C%E6%88%91%E8%BF%87%E4%BA%86%E4%B8%80%E4%B8%AA%E9%98%89%E5%89%B2%E7%89%88%E7%9A%84%E6%9A%91%E5%81%87/1-6.jpg" srcset="/img/loading.gif" alt="1-6"></p>
+<p><img src="/img/posts/2020%E5%B9%B4%EF%BC%8C%E6%88%91%E8%BF%87%E4%BA%86%E4%B8%80%E4%B8%AA%E9%98%89%E5%89%B2%E7%89%88%E7%9A%84%E6%9A%91%E5%81%87/1-7.jpg" srcset="/img/loading.gif" alt="1-7"></p>
+<p><img src="/img/posts/2020%E5%B9%B4%EF%BC%8C%E6%88%91%E8%BF%87%E4%BA%86%E4%B8%80%E4%B8%AA%E9%98%89%E5%89%B2%E7%89%88%E7%9A%84%E6%9A%91%E5%81%87/1-8.gif" srcset="/img/loading.gif" alt="1-8"></p>
+<p>由于某些原因，戴尔恢复盘白嫖教程已被收回。将于明年寒假重新发布。</p>
 
-            </article>
+            </div>
             <hr>
             <div>
               <div class="post-metas mb-3">
@@ -226,60 +247,61 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%8A%98%E8%85%BE/">折腾</a>
+                      <a class="hover-with-bg" href="/tags/%E5%88%9D%E4%B8%AD/">初中</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%9A%91%E5%81%87/">暑假</a>
                     
                   </div>
                 
               </div>
               
-                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" target="_blank" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
               
               
                 <div class="post-prevnext row">
-                  <div class="post-prev col-6">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
                     
                     
                       <a href="/2020/05/03/%E5%87%86%E5%A4%87%E5%BC%80%E5%AD%A6%E4%BA%86/">
-                        <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">准备开学了</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
-                  </div>
-                  <div class="post-next col-6">
-                    
-                    
-                      <a href="/2020/03/18/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C%EF%BC%81/">
-                        <span class="hidden-mobile">你好，世界！</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
-                  </div>
+                  </article>
                 </div>
               
             </div>
 
             
               <!-- Comments -->
-              <div class="comments" id="comments">
+              <article class="comments" id="comments">
                 
                 
-  <script defer src="https://utteranc.es/client.js"
-          repo="Longhorn3683/longhorn3683.github.io"
-          issue-term="og:title"
-  
-          label="utterances"
-    
-          theme="github-light"
-          crossorigin="anonymous"
-  >
+  <script type="text/javascript">
+    function loadUtterances() {
+      var s = document.createElement('script');
+      s.setAttribute('src', 'https://utteranc.es/client.js');
+      s.setAttribute('repo', 'Longhorn3683/longhorn3683.github.io');
+      s.setAttribute('issue-term', 'og:title');
+      
+      s.setAttribute('label', 'utterances');
+      
+      s.setAttribute('theme', 'github-light');
+      s.setAttribute('crossorigin', 'anonymous');
+      document.getElementById('comments').appendChild(s);
+    }
+    waitElementVisible('comments', loadUtterances)
   </script>
 
 
-              </div>
+              </article>
             
-          </div>
+          </article>
         </div>
       </div>
     </div>
@@ -350,14 +372,27 @@
 <!-- SCRIPTS -->
 <script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
 <script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
 <script  src="/js/main.js" ></script>
 
-
-  <script  src="/js/lazyload.js" ></script>
-
+<!-- Plugins -->
 
 
   
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+
+
+
+
   <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
   <script>
     $(document).ready(function () {
@@ -366,7 +401,7 @@
 
       tocbot.init({
         tocSelector: '#tocbot',
-        contentSelector: '.post-content',
+        contentSelector: '#post-body',
         headingSelector: 'h1,h2,h3,h4,h5,h6',
         linkClass: 'tocbot-link',
         activeLinkClass: 'tocbot-active-link',
@@ -385,26 +420,12 @@
 
 
 
-
-
-  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
-  <script  src="/js/clipboard-use.js" ></script>
-
-
-
-
-
-
-<!-- Plugins -->
-
-
-
   <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
   <script>
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "戴尔恢复盘白嫖教程&nbsp;",
+        "2020年，我过了一个阉割版的暑假&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -475,12 +496,7 @@
 
 
 
-  <script  src="https://cdn.staticfile.org/mermaid/8.5.0/mermaid.min.js" ></script>
-  <script>
-    if (window.mermaid) {
-      mermaid.initialize({"theme":"default"});
-    }
-  </script>
+
 
 
 
