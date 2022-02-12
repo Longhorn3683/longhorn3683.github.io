@@ -23,11 +23,11 @@
   
   
   <entry>
-    <title>故事相册支持</title>
+    <title>故事相册支持/Story Support</title>
     <link href="/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81/"/>
     <url>/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81/</url>
     
-    <content type="html"><![CDATA[<h2 id="既然使用了Flutter，那么支持哪些平台？"><a href="#既然使用了Flutter，那么支持哪些平台？" class="headerlink" title="既然使用了Flutter，那么支持哪些平台？"></a>既然使用了Flutter，那么支持哪些平台？</h2><p>目前只支持Android，后续会支持iOS、Windows、macOS、Linux等主流平台。</p><h2 id="最低要求"><a href="#最低要求" class="headerlink" title="最低要求"></a>最低要求</h2><p>Android版：Android 6.0（API 23）</p><h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p>酷安（仅arm64）：<a href="https://www.coolapk.com/apk/287409">https://www.coolapk.com/apk/287409</a><br>蓝奏云（密码:fugf）：<a href="https://longhorn3683.lanzouw.com/b02igoixc">https://longhorn3683.lanzouw.com/b02igoixc</a></p><h2 id="这个项目是怎么产生的？"><a href="#这个项目是怎么产生的？" class="headerlink" title="这个项目是怎么产生的？"></a>这个项目是怎么产生的？</h2><p>这个项目的雏形出现于2017上半年，于2017年冬季成型。原本是我的另一个项目SwiftOS中的特色功能之一，但SwiftOS最终弃坑。</p><h2 id="这个应用用来做什么？"><a href="#这个应用用来做什么？" class="headerlink" title="这个应用用来做什么？"></a>这个应用用来做什么？</h2><p>这个应用的初衷是把一些照片变成一个故事，灵感来源于三星的“故事相册”应用（现已停止更新）。虽然现在很多厂商也有类似的功能（比如苹果、一加），但都不满足我的需求。</p><h2 id="后期是否会推出高级版？"><a href="#后期是否会推出高级版？" class="headerlink" title="后期是否会推出高级版？"></a>后期是否会推出高级版？</h2><p>计划在2.0版本后推出。</p><h2 id="对于早期设计图中的“梁-的暑假行程”示例相册，以后是否会重制？"><a href="#对于早期设计图中的“梁-的暑假行程”示例相册，以后是否会重制？" class="headerlink" title="对于早期设计图中的“梁**的暑假行程”示例相册，以后是否会重制？"></a>对于早期设计图中的“梁**的暑假行程”示例相册，以后是否会重制？</h2><p>不会。</p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://longhorn3683.vercel.app/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81_en_us/">English (US)</a>|简体中文|<a href="https://longhorn3683.vercel.app/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81_zh_tw/">繁體中文</a></p><h2 id="下载应用"><a href="#下载应用" class="headerlink" title="下载应用"></a>下载应用</h2><ul><li>华为应用市场：暂未上架</li><li>亚马逊应用商店：暂未上架</li><li>Google Play：暂未上架</li><li>三星应用商店：暂未上架</li><li>Microsoft Store：暂未上架</li><li>酷安：更换签名，暂未上架</li><li>蓝奏云：<a href="https://longhorn3683.lanzouw.com/b02igoixc">https://longhorn3683.lanzouw.com/b02igoixc</a> （密码:fugf）</li></ul><h2 id="隐私政策"><a href="#隐私政策" class="headerlink" title="隐私政策"></a>隐私政策</h2><p>本应用不会收集您的任何个人信息。</p><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><details><summary>支持平台</summary>目前只支持Android，后续会支持iOS、Windows、macOS、Linux等主流平台。</details><details><summary>最低要求</summary>Android：6.0 (API 23)</details><details><summary>是否收费？</summary>目前推出了免费版，免费版已推出的功能永久免费。目前计划正式版加入内购，用于购买高级版。捐赠至少RMB 6可在正式版推出后获得高级版，详情请关注Longhorn3683的小屋(https://longhorn3683.vercel.app/)。</details><details><summary>正式版何时推出？</summary>我也不知道。学业繁忙，随时会变。</details><details><summary>是否会推出一些示例相册？</summary>是。将在正式版发布时同时推出。</details><details><summary>对于早期设计图中的“梁**的暑假行程”示例相册，以后是否会完整重制？</summary>不会。</details>]]></content>
     
     
     
@@ -36,6 +36,32 @@
       <tag>故事相册</tag>
       
     </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Story Support</title>
+    <link href="/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81_en_us/"/>
+    <url>/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81_en_us/</url>
+    
+    <content type="html"><![CDATA[<p>English (US)|<a href="https://longhorn3683.vercel.app/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81/">简体中文</a>|<a href="https://longhorn3683.vercel.app/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81_zh_tw/">繁體中文</a></p><h2 id="Download-the-app"><a href="#Download-the-app" class="headerlink" title="Download the app"></a>Download the app</h2><ul><li>HUAWEI AppGallery: Not available</li><li>Amazon Appstore: Not available</li><li>Google Play: Not available</li><li>Galaxy Store: Not available</li><li>Microsoft Store: Not available</li><li>Lanzou: <a href="https://longhorn3683.lanzouw.com/b02igoixc">https://longhorn3683.lanzouw.com/b02igoixc</a> (Password: fugf)</li></ul><h2 id="Privacy-Policy"><a href="#Privacy-Policy" class="headerlink" title="Privacy Policy"></a>Privacy Policy</h2><p>This app does not collect any of your personal information.</p><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><details><summary>Supported Platforms</summary>Currently only supports Android, and will support mainstream platforms such as iOS, Windows, macOS, and Linux in the future.</details><details><summary>Minimum Requirements</summary>Android: 6.0 (API 23)</details><details><summary>Is there a fee? </summary>At present, a free version has been launched, and the functions that have been launched in the free version are permanently free. It is currently planned to add in-app purchases to the official version to purchase the premium version. Donate at least RMB 6 to get the premium version after the official version is launched. For details, please pay attention to Longhorn3683's Cottage(https://longhorn3683.vercel.app/).</details><details><summary>When will the release version be released? </summary>I do not know either.</details><details><summary>Will some sample albums be released? </summary>Yes. It will be launched at the same time as the official version is released.</details><!-- flag of hidden posts -->]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>故事相簿支援</title>
+    <link href="/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81_zh_tw/"/>
+    <url>/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81_zh_tw/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://longhorn3683.vercel.app/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81_en_us/">English (US)</a>|<a href="https://longhorn3683.vercel.app/2021/08/28/%E6%95%85%E4%BA%8B%E7%9B%B8%E5%86%8C%E6%94%AF%E6%8C%81/">简体中文</a>|繁體中文</p><h2 id="下載應用"><a href="#下載應用" class="headerlink" title="下載應用"></a>下載應用</h2><ul><li>HUAWEI AppGallery：暫未上架</li><li>Google Play：暫未上架</li><li>Galaxy Store：暫未上架</li><li>Microsoft Store：暫未上架</li><li>Lanzou：<a href="https://longhorn3683.lanzouw.com/b02igoixc">https://longhorn3683.lanzouw.com/b02igoixc</a> （密碼:fugf）</li></ul><h2 id="隱私政策"><a href="#隱私政策" class="headerlink" title="隱私政策"></a>隱私政策</h2><p>本應用不會收集您的任何個人資訊。</p><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><details><summary>支援平臺</summary>目前只支援Android，後續會支援iOS、Windows、macOS、Linux等主流平臺。</details><details><summary>最低要求</summary>Android：6.0 (API 23)</details><details><summary>是否收費？</summary>目前推出了免費版，免費版已推出的功能永久免費。目前計劃正式版加入內購，用於購買高階版。捐贈至少RMB 6可在正式版推出後獲得高階版，詳情請關注[Longhorn3683的小屋](https://longhorn3683.vercel.app/)。</details><details><summary>正式版何時推出？</summary>我也不知道。</details><details><summary>是否會推出一些示例相簿？</summary>是。將在正式版釋出時同時推出。</details><!-- flag of hidden posts -->]]></content>
+    
+    
     
   </entry>
   
